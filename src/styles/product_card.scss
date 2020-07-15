@@ -30,7 +30,7 @@ $cards-distance: 144px;
     width: 160px;
     padding: 12px 0;
     margin: 18px 5px;
-    transition: transform 0.5s linear, padding 0.5s linear;
+    transition: transform 1s;
   }
 
   &__image:hover {
@@ -104,11 +104,11 @@ $cards-distance: 144px;
     color: $white-color;
     border-radius: 5px;
     border: 1px solid $blue-color;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
 
     &:hover {
       background: $white-color;
       color: $blue-color;
-      transition: color 0.3s ease-in, background-color 0.3s ease-in;
     }
   }
 
