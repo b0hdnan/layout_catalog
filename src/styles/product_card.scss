@@ -13,16 +13,10 @@ $cards-distance: 144px;
   width: $cardWidth;
   height: $cardHeight;
   margin-bottom: 50px;
-  margin-right: 48px;
   background: $white-color;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 0;
-
-  &:nth-child(4),
-  &:nth-child(8) {
-    margin-right: 0;
-  }
 
   &__image {
     align-self: center;
