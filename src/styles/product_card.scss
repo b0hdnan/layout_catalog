@@ -99,6 +99,7 @@ $cards-distance: 144px;
     border-radius: 5px;
     border: 1px solid $blue-color;
     transition: color 0.3s ease-in, background-color 0.3s ease-in;
+    cursor: pointer;
 
     &:hover {
       background: $white-color;
