@@ -12,6 +12,7 @@ $headerHeight: 60px;
     align-self: center;
     justify-content: center;
     margin-left: 50px;
+    margin-right: 10px;
     width: 40px;
     height: 40px;
   }
@@ -34,7 +35,6 @@ $headerHeight: 60px;
     align-items: center;
     font-size: 12px;
     text-transform: uppercase;
-    line-height: $headerHeight;
     text-decoration: none;
     color: black;
     transition: color 0.5s;
